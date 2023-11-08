@@ -13,7 +13,14 @@
 // a = document.getElementById('check')
 // a.append = 'manjeet';
 
-let  b = document.querySelector('#check')
-b.remove();
+// let  b = document.querySelector('#check')
+// b.remove();
 // a.remove('check');
-console.log(b);
+// let message = document.querySelector('.atr');
+// let style = message.getAttribute("src");
+// console.log(style);
+
+let message = document.querySelector('.atr');
+let style = message.setAttribute("src","myfile.png");
+console.log(style);
+
